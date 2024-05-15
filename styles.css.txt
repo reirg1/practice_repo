@@ -1,0 +1,52 @@
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8);
+    padding: 8px 0; /* Adjusted padding to make the navigation bar smaller */
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+header nav .logo {
+    float: left;
+    width: 40px; /* Adjusted logo size */
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px; /* Adjusted margin to reduce spacing between menu items */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em; /* Reset font size to default */
+}
+
+/* Styles specific to the navigation bar */
+header nav.shrink {
+    padding: 5px 0; /* Adjusted padding for smaller navigation bar */
+}
+
+header nav.shrink .logo {
+    width: 30px; /* Further adjusted logo size */
+    margin-left: 10px; /* Further adjusted margin */
+}
+
+header nav.shrink ul li {
+    margin: 0 8px; /* Further adjusted margin */
+}
+
+header nav.shrink ul li a {
+    font-size: 0.9em; /* Adjusted font size */
+}
