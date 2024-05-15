@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatfield Auto Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="menu-icon" id="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#inventory">Inventory</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to Hatfield Auto Group</h1>
+            <p>If being a dealership is cool, consider us Miles Davis.</p>
+        </div>
+    </header>
+    <section class="section" id="home">
+        <h1>Welcome to Hatfield Auto Group</h1>
+        <p>If being a dealership is cool, consider us Miles Davis.</p>
+    </section>
+    <section class="section" id="inventory">
+        <h2>Our Inventory</h2>
+        <div class="inventory-grid">
+            <div class="vehicle">
+                <img src="vehicle1.jpg" alt="Vehicle 1">
+                <h3>2023 Toyota Camry</h3>
+                <p>$24,000</p>
+            </div>
+            <div class="vehicle">
+                <img src="vehicle2.jpg" alt="Vehicle 2">
+                <h3>2023 Ford F-150</h3>
+                <p>$35,000</p>
+            </div>
+            <div class="vehicle">
+                <img src="vehicle3.jpg" alt="Vehicle 3">
+                <h3>2023 Honda CR-V</h3>
+                <p>$28,000</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>We want to make buying a vehicle easy. Our mission is to provide you with a vehicle you love, and make it a cool experience.</p>
+        <div class="team-profiles">
+            <div class="profile">
+                <img src="profile1.jpg" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>Sales Manager</p>
+            </div>
+            <div class="profile">
+                <img src="profile2.jpg" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>Customer Relations</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="map">
+        <h2>Find Us</h2>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509446!2d144.9559283155898!3d-37.81720974202109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f6804c0e9a6!2sEureka%20Skydeck!5e0!3m2!1sen!2sau!4v1610956641671!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
