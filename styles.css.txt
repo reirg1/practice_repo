@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Full viewport height for sections */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Background color and spacing for sections */
+#home {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+#inventory {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #333;
+    font-weight: 700;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
