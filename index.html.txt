@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatfield Auto Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="menu-icon" id="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#inventory">Inventory</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to Hatfield Auto Group</h1>
+            <p>If being a dealership is cool, consider us Miles Davis.</p>
+        </div>
+    </header>
+    <section class="section" id="home">
+        <h1>Welcome to Hatfield Auto Group</h1>
+        <p>If being a dealership is cool, consider us Miles Davis.</p>
+    </section>
+    <section class="section" id="inventory">
+        <h2>Our Inventory</h2>
+        <div class="inventory-grid">
+            <div class="vehicle">
+                <img src="vehicle1.jpg" alt="Vehicle 1">
+                <h3>2023 Ford F-150</h3>
+                <p>$35,000</p>
+            </div>
+            <div class="vehicle">
+                <img src="vehicle2.jpg" alt="Vehicle 2">
+                <h3>2023 Ram 1500</h3>
+                <p>$40,000</p>
+            </div>
+            <div class="vehicle">
+                <img src="vehicle3.jpg" alt="Vehicle 3">
+                <h3>2023 Chevrolet Silverado</h3>
+                <p>$38,000</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>We want to make buying a vehicle easy. Our mission is to provide you with a vehicle you love, and make it a cool experience.</p>
+        <div class="team-profiles">
+            <div class="profile">
+                <img src="profile1.jpg" alt="Team Member 1">
+                <h3>John Doe</h3>
+               
